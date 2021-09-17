@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\InvestmentStoreRequest;
 use App\Models\CommodityType;
 use App\Models\Investment;
 use App\Models\InvestmentType;
@@ -42,7 +43,7 @@ class InvestmentController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(InvestmentStoreRequest $request)
     {
         $data = $request->only([
             'commodity_id',

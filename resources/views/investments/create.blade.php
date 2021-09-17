@@ -9,7 +9,7 @@
         <div class="d-flex flex-wrap">
 
             <div class="col-6 flex-column p-2">
-                <dl class="form-group">
+                <dl class="form-group @error('commodity_id') errored @enderror">
                     <dt class="input-label">
                         <label for="commodity_id">Commodity</label>
                     </dt>
@@ -18,32 +18,32 @@
                             @foreach($commodityTypes as $commodityType)
                                 <optgroup label="{{ $commodityType->name }}"></optgroup>
                                 @foreach($commodityType->commodities as $commodity)
-                                    <option value="{{ $commodity->id }}">{{ $commodity->name }}</option>
+                                    <option value="{{ $commodity->id }}" @if(old('commodity_id') == $commodity->id) selected @endif>{{ $commodity->name }}</option>
                                 @endforeach
                             @endforeach
                         </select>
                     </dd>
                 </dl>
 
-                <dl class="form-group">
+                <dl class="form-group @error('title') errored @enderror">
                     <dt class="input-label">
                         <label for="title">Title</label>
                     </dt>
                     <dd>
-                        <input type="text" name="title" id="title" class="form-control input-block">
+                        <input type="text" name="title" id="title" class="form-control input-block" value="{{ old('title') }}">
                     </dd>
                 </dl>
 
-                <dl class="form-group">
+                <dl class="form-group @error('description') errored @enderror">
                     <dt class="input-label">
                         <label for="description">Description</label>
                     </dt>
                     <dd>
-                        <textarea name="description" id="description" class="form-control input-block" rows="4"></textarea>
+                        <textarea name="description" id="description" class="form-control input-block" rows="4">{{ old('description') }}</textarea>
                     </dd>
                 </dl>
 
-                <dl class="form-group">
+                <dl class="form-group @error('intervention_id') errored @enderror">
                     <dt class="input-label">
                         <label for="intervention_id">Intervention</label>
                     </dt>
@@ -52,66 +52,68 @@
                             @foreach($investmentTypes as $investmentType)
                                 <optgroup label="{{ $investmentType->name }}"></optgroup>
                                 @foreach($investmentType->interventions as $intervention)
-                                    <option value="{{ $intervention->id }}">{{ $intervention->name }}</option>
+                                    <option value="{{ $intervention->id }}"  @if(old('intervention_id') == $intervention->id) selected @endif>{{ $intervention->name }}</option>
                                 @endforeach
                             @endforeach
                         </select>
                     </dd>
                 </dl>
 
-                <dl class="form-group">
+                <dl class="form-group @error('quantity') errored @enderror">
                     <dt class="input-label">
                         <label for="quantity">Quantity</label>
                     </dt>
                     <dd>
-                        <input type="number" name="quantity" id="quantity" class="form-control input-block">
+                        <input type="number" name="quantity" id="quantity" class="form-control input-block" value="{{ old('quantity') }}">
                     </dd>
                 </dl>
 
-                <dl class="form-group">
+                <dl class="form-group @error('cost') errored @enderror">
                     <dt class="input-label">
                         <label for="cost">Cost in PhP</label>
                     </dt>
                     <dd>
-                        <input type="number" name="cost" id="cost" class="form-control input-block">
+                        <input type="number" name="cost" id="cost" class="form-control input-block" value="{{ old('cost') }}">
                     </dd>
                 </dl>
             </div>
 
             <div class="col-6 flex-column p-2">
-                <dl class="form-group">
+                <dl class="form-group @error('proponent') errored @enderror">
                     <dt class="input-label">
                         <label for="proponent">Proponent</label>
                     </dt>
                     <dd>
-                        <input type="text" name="proponent" id="proponent" class="form-control input-block">
+                        <input type="text" name="proponent" id="proponent" class="form-control input-block" value="{{ old('proponent') }}">
                     </dd>
                 </dl>
 
-                <dl class="form-group">
+                <dl class="form-group @error('beneficiaries') errored @enderror">
                     <dt class="input-label">
                         <label for="beneficiaries">Beneficiaries</label>
                     </dt>
                     <dd>
-                        <input type="text" name="beneficiaries" id="beneficiaries" class="form-control input-block">
+                        <input type="text" name="beneficiaries" id="beneficiaries" class="form-control input-block" value="{{ old('beneficiaries') }}">
                     </dd>
                 </dl>
 
-                <dl class="form-group">
+                <dl class="form-group @error('location_map') errored @enderror">
                     <dt class="input-label">
                         <label for="location_map">Location Map <small> (select from the map)</small></label>
                     </dt>
                     <dd>
-                        <input type="text" name="location_map" id="location_map" class="form-control input-block" readonly>
+                        <input type="text" name="location_map" id="location_map" class="form-control input-block" readonly value="{{ old('location_map') }}">
                     </dd>
                 </dl>
 
-                <dl class="form-group">
+                <dl class="form-group @error('justification') errored @enderror">
                     <dt class="input-label">
                         <label for="justification">Justification</label>
                     </dt>
                     <dd>
-                        <textarea name="justification" id="justification" class="form-control input-block" rows="4"></textarea>
+                        <textarea name="justification" id="justification" class="form-control input-block" rows="4">
+                            {{ old('justification') }}
+                        </textarea>
                     </dd>
                 </dl>
 
