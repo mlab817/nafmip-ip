@@ -1,0 +1,232 @@
+[
+  {
+    "Commodity Group": "Rice",
+    "Function": "Production Support Services",
+    "Intervention": "Pest control equipment distributed;Pest control equipment distributed (number);Production facilities upgraded;Seed Storage upgraded (number);Testing kits distributed;Soil Test Kit distributed (number)"
+  },
+  {
+    "Commodity Group": "Rice",
+    "Function": "Market Development Services",
+    "Intervention": "Market-related infrastructure established;Trading Centers established (number)"
+  },
+  {
+    "Commodity Group": "Rice",
+    "Function": "Research and Development",
+    "Intervention": "Research and development activities conducted;Research and development activities funded;Research facilities upgraded;Upgraded_Research facilities (number);Conduct of regional rice research development program [PhilRice];Regional rice research and development activities and projects conducted (number);Modernization of rice research laboratories [PhilRice];Rice research laboratories modernized (number)"
+  },
+  {
+    "Commodity Group": "Rice",
+    "Function": "Extension Support, Education and Training Services",
+    "Intervention": ""
+  },
+  {
+    "Commodity Group": "Rice",
+    "Function": "Agricultural Machinery, Equipment, and Facilities Support Services",
+    "Intervention": "Farm production-related machinery and equipment distributed;Postharvest equipment and machinery distributed;Harvester distributed (number);Reapers distributed (number);Spreaders distributed (number);Threshers distributed (number);Transplanters distributed (number);Flatbed dryers distributed (number);Postharvest facilities constructed;MPDP Constructed (number);Village type dryer constructed (number)"
+  },
+  {
+    "Commodity Group": "Rice",
+    "Function": "Irrigation Network Services",
+    "Intervention": "Service area generated from the construction of irrigation canal;Service area restored;Small-scale irrigation projects (SSIP) installed/constructed/distributed;Small-scale irrigation projects (SSIP) rehabilitated"
+  },
+  {
+    "Commodity Group": "Corn",
+    "Function": "Production Support Services",
+    "Intervention": ""
+  },
+  {
+    "Commodity Group": "Corn",
+    "Function": "Extension Support, Education and Training Services",
+    "Intervention": "Training and training-related events conducted;Other training-related events conducted (number);School on Air conducted (number);TOT Conducted (number)"
+  },
+  {
+    "Commodity Group": "Corn",
+    "Function": "Agricultural Machinery, Equipment, and Facilities Support Services",
+    "Intervention": "Farm production-related machinery and equipment distributed;Farm Tractors distributed (number);Harvester Distributed (number);Mechanical sheller distributed (number);Other farm production-related machinery and equipment distributed (number);Planters distributed (number);Postharvest equipment and machinery distributed;Cassava Granulators distributed (number);Chippers distributed (number);Hauling vehicle distributed (number);Hermetic cocoons distributed (number);Mechanical Dryers distributed (number);Milling equipment distributed (number);Other postharvest equipment and machinery distributed (number);Postharvest facilities constructed;MPDP Constructed (number);Village type dryer constructed (number)"
+  },
+  {
+    "Commodity Group": "",
+    "Function": "",
+    "Intervention": "Small-scale irrigation projects (SSIP) installed/constructed/distributed;Shallow Tube Well_installed/distributed (number)"
+  },
+  {
+    "Commodity Group": "",
+    "Function": "",
+    "Intervention": ""
+  },
+  {
+    "Commodity Group": "HVCDP",
+    "Function": "Production Support Services",
+    "Intervention": "Other production facilities established;Production facilities established (number);Planting materials distributed (perennial crops only but limited to priority commodities);Abiu_Planting materials distributed (piece);Atis_Planting materials distributed (piece);Avocado_Planting materials distributed (piece);Banana_Planting materials distributed (piece);Cacao_Planting materials distributed (piece);Cashew_Planting materials distributed (piece);Chico_Planting materials distributed (piece);Citrus_Planting materials distributed (piece);Coffee_Planting materials distributed (piece);DragonFruit_Planting materials distributed (piece);Durian_Planting materials distributed (piece);Gabi cuttings distributed (piece);Ginger distributed (kilogram);Guava_Planting materials distributed (piece);Guyabano_Planting materials distributed (piece);Jackfruit_Planting materials distributed (piece);Lanzones_Planting materials distributed (piece);Mango_Planting materials distributed (piece);Mangosteen_Planting materials distributed (piece);Marang_Planting materials distributed (piece);Other cuttings distributed (piece);Pili_Planting materials distributed (piece);Pineapple_Planting materials distributed (piece);Rambutan_Planting materials distributed (piece);Rubber_Planting materials distributed (piece);Santol_Planting materials distributed (piece);Sweet Potato cuttings distributed (piece);Yam cuttings distributed (piece);Production facilities established;Budwood gardens established (number);Clonal garden established (number);Greenhouses established (number);Nurseries established (number);Scion garden/grove established (number);Tissue culture lab established (number)"
+  },
+  {
+    "Commodity Group": "HVCDP",
+    "Function": "Market Development Services",
+    "Intervention": "Coconut Enterprise Development Sub-program [PCA];KAANIB-Community/Household Level Coconut Processing Project (number)"
+  },
+  {
+    "Commodity Group": "HVCDP",
+    "Function": "Research and Development",
+    "Intervention": "Technologies developed;Technologies developed (number);Research and development;Research and development projects/activities conducted (number)"
+  },
+  {
+    "Commodity Group": "HVCDP",
+    "Function": "Extension Support, Education and Training Services",
+    "Intervention": "Farmer Field School conducted;Training and training-related events conducted (number);Training and training-related events conducted;POT (Package of Technology) conducted (number)"
+  },
+  {
+    "Commodity Group": "HVCDP",
+    "Function": "Agricultural Machinery, Equipment, and Facilities Support Services",
+    "Intervention": "Farm production-related machinery and equipment distributed;Hand tractors distributed (number);Sprayers distributed (number);Postharvest equipment and machinery distributed;Depulper distributed (number);Other dryers distributed (number);Other processing equipment distributed (number);Roasters distributed (number);Postharvest facilities constructed;Other PH facilities constructed (number);Other Storage facilities constructed (number);Production facilities established;Budwood garden established (number);Clonal garden established (number);Greenhouses established (number);Nurseries established (number);Other Production Facilities Established (number);Rainshelter established (number);School gardens established (number);Scion grove established (number);Screenhouse/Nethouse established (number);Seed Storage established (number);Tissue culture lab established (number)"
+  },
+  {
+    "Commodity Group": "HVCDP",
+    "Function": "Farm-to-market Road Network Services",
+    "Intervention": "Construction and repair of bridge [SRA];Bridge constructed and repaired (kilometer);Farm-to-mill roads constructed [SRA];Farm-to-mill roads constructed (kilometers)"
+  },
+  {
+    "Commodity Group": "HVCDP",
+    "Function": "Irrigation Network Services",
+    "Intervention": "Small-scale irrigation implements distributed;HDPE pipes distributed (meter);Water drums distributed (number);Small-scale irrigation projects (SSIP) installed/constructed/distributed;Diversion Dam_installed/constructed (number);Drip_Irrigation_System_installed/distributed (number);PumpIrrigationSystemOS_installed/distributed (number);Ram Pump_installed/constructed (number);Solar-powered irrigation system installed/constructed (number);Spring Development_installed/constructed (number);Wind Pump_installed/constructed (number);Small-scale irrigation systems supported;Systems connected with HDPE pipes (number)"
+  },
+  {
+    "Commodity Group": "Livestock",
+    "Function": "Production Support Services",
+    "Intervention": "Dairy herd build-up [NDA];Dairy animals distributed (number);Milk feeding Program [NDA];Dairy cattles distributed (number);Production facilities established;Other Production Facilities Established (number);Production facilities upgraded;Multiplier farms upgraded (number);Nucleus farms upgraded (number);Other Production facilities Upgraded (number)"
+  },
+  {
+    "Commodity Group": "Livestock",
+    "Function": "Research and Development",
+    "Intervention": "NoBreakdown_New R&D activities conducted;Research and development activities conducted (number);Research facilities upgraded;Research facilities upgraded (number);Research and development activities conducted;Completed_Market-related research activities conducted (number);Completed_Production-related R&D activities conducted (number);Continuing_Market-related research activities conducted (number);Continuing_Production-related R&D activities conducted (number);New_Production-related R&D activities conducted (number)"
+  },
+  {
+    "Commodity Group": "Livestock",
+    "Function": "Market Development Services",
+    "Intervention": "Dairy enterprise development [NDA];Dairy enterprise developed (number)"
+  },
+  {
+    "Commodity Group": "Livestock",
+    "Function": "Extension Support, Education and Training Services",
+    "Intervention": "Milk feeding Program [NDA];Training on dairy production (number);Extension personnel trained;Participants trained (number);Field day conducted;Training and training-related events conducted (number);Technology demonstrations established;Techno_demo established (number);Training of Trainers conducted;Training and training-related events conducted (number)"
+  },
+  {
+    "Commodity Group": "Livestock",
+    "Function": "Agricultural Machinery, Equipment, and Facilities Support Services",
+    "Intervention": "Other Infrastructure constructed;Other Infrastructure constructed (number);Postharvest facilities constructed;Biogas digester constructed (number);Production facilities established;Multiplier farms established (number);Production facilities upgraded;Multiplier farms upgraded (number);Other Production facilities Upgraded (number);Dairy regulation;Milk laboratories established (number)"
+  },
+  {
+    "Commodity Group": "Fisheries",
+    "Function": "Production Support Services",
+    "Intervention": "Cages for livelihood distributed;Production facilities distributed (number);Fishing gear/paraphernalia distributed;Fishing gear/paraphernalia distributed (number);Hatcheries maintained;Hatcheries maintained (number);Mariculture parks established;Mariculture parks established (number);Seaweed farm implements distributed;Seaweed farm implements distributed (number);Seaweed nurseries established;Seaweed nurseries established (number)"
+  },
+  {
+    "Commodity Group": "Fisheries",
+    "Function": "Research and Development",
+    "Intervention": "Research and development activities conducted;NoBreakdown_Completed R&D activities conducted (number);NoBreakdown_Continuing R&D activities conducted (number);NoBreakdown_New R&D activities conducted (number)"
+  },
+  {
+    "Commodity Group": "Fisheries",
+    "Function": "Extension Support, Education and Training Services",
+    "Intervention": "Other Training and training-related events conducted;Training and training-related events conducted (number);Techno_demo established;Technology demonstrations established/maintained (number)"
+  },
+  {
+    "Commodity Group": "Fisheries",
+    "Function": "Agricultural Machinery, Equipment, and Facilities Support Services",
+    "Intervention": "Construction/rehabilitation/improvement of fish ports;Fish ports constructed (number);Fish ports improved (number);Fish ports rehabilitated (number);Other Infrastructure constructed;Fishlandings and IPCS constructed;Other Infrastructure constructed (number);Natural/Ecological Infrastructure rehab/developed;Artificial reefs modules deployed (number);Communal waters stocked (number);Fish sanctuaries monitored/assisted (number);Mangrove propagules planted (number);Other postharvest equipment and machinery distributed;Other postharvest equipment and machinery distributed (number);Dryers (including retrofitting of recirculating dryers) distributed (number);Smokehouse (for fisheries) distributed (number);Other Postharvest facilities constructed"
+  },
+  {
+    "Commodity Group": "Organic",
+    "Function": "Production Support Services",
+    "Intervention": "Farm implements distributed;Farm implements distributed (number);Planting materials distributed;Other planting materials distributed_kg (kilogram);Production facilities established;Biocontrol agent laboratories established (number);Rainshelter established (number);Seed Storage established (number)"
+  },
+  {
+    "Commodity Group": "Organic",
+    "Function": "Market Development Services",
+    "Intervention": "Market-related infrastructure established;Trading Posts established (number)"
+  },
+  {
+    "Commodity Group": "Organic",
+    "Function": "Research and Development",
+    "Intervention": "Research and development activities conducted;New_Postharvest-related R&D activities conducted (number);Research and development activities funded;Continuing_Postharvest-related R&D activities funded (number);Continuing_Production-related R&D activities funded (number);Extension-related research activities funded (number);New_Postharvest-related R&D activities funded (number);New_Production-related R&D activities funded (number);Research facilities established;Established_Research facilities (number)"
+  },
+  {
+    "Commodity Group": "Organic",
+    "Function": "Extension Support, Education and Training Services",
+    "Intervention": "Training and training-related events conducted;Field day conducted (number)"
+  },
+  {
+    "Commodity Group": "Organic",
+    "Function": "Agricultural Machinery, Equipment, and Facilities Support Services",
+    "Intervention": "Farm production-related machinery and equipment distributed;Cultivators distributed (number);Tillers distributed (number);Production facilities established;Organic fertilizer composting facilities established (number)"
+  },
+  {
+    "Commodity Group": "Organic",
+    "Function": "Irrigation Network Services",
+    "Intervention": "Small-scale irrigation projects (SSIP) installed/constructed/distributed;Shallow Tube Well_installed/distributed (number);Other SSIP_installed/constructed (number);Small Farm Reservoir_installed/constructed (number)"
+  },
+  {
+    "Commodity Group": "Halal",
+    "Function": "Production Support Services",
+    "Intervention": "Production support services for Halal ;Production support services provided to Halal producers (number)"
+  },
+  {
+    "Commodity Group": "Halal",
+    "Function": "Market Development Services",
+    "Intervention": ""
+  },
+  {
+    "Commodity Group": "Halal",
+    "Function": "Research and Development",
+    "Intervention": "Conduct of research activities for Halal ;Research activities for Halal conducted (number)"
+  },
+  {
+    "Commodity Group": "Halal",
+    "Function": "Agricultural Machinery, Equipment, and Facilities Support Services",
+    "Intervention": "Establishment and upgrading of Halal infrastructure ;Halal infrastructure established/upgraded (number)"
+  },
+  {
+    "Commodity Group": "",
+    "Function": "",
+    "Intervention": ""
+  },
+  {
+    "Commodity Group": "Commodity- Neutral",
+    "Function": "Information Support Services",
+    "Intervention": "Development, maintenance and upgrading of website;Development, maintenance, upgrading of offline and online database/information system;Establishment, rehabilitation and upgrading of infostructure"
+  },
+  {
+    "Commodity Group": "Commodity- Neutral",
+    "Function": "Operation and Maintenance of Integrated Laboratories",
+    "Intervention": ""
+  },
+  {
+    "Commodity Group": "Commodity- Neutral",
+    "Function": "Support to Operations",
+    "Intervention": "Research and development activities conducted;Research facilities upgraded;Technology demonstrations established/maintained;Testing kits distributed;Training and training-related events conducted"
+  },
+  {
+    "Commodity Group": "Commodity- Neutral",
+    "Function": "Market Development Services",
+    "Intervention": ""
+  },
+  {
+    "Commodity Group": "Commodity- Neutral",
+    "Function": "Research and Development",
+    "Intervention": "Extension-related research activities conducted;Research and development activities conducted (number);Postharvest R&D activities funded;Research and development activities conducted (number)"
+  },
+  {
+    "Commodity Group": "Commodity- Neutral",
+    "Function": "Extension Support, Education and Training Services",
+    "Intervention": "Technology demonstrations established/maintained;Techno_demo established (number);Training and training-related events conducted;FFS Conducted (number);Other training conducted (number)"
+  },
+  {
+    "Commodity Group": "Commodity- Neutral",
+    "Function": "Farm-to-market Road Network Services",
+    "Intervention": "FMRs construction_funded;FMRs rehabilitation_funded"
+  },
+  {
+    "Commodity Group": "Commodity- Neutral",
+    "Function": "Irrigation Network Services",
+    "Intervention": "Training activities for SWISA members;Training activities for SWISA members (number)"
+  }
+]

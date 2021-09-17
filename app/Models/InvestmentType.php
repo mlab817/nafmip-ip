@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class CommodityType extends Model
+class InvestmentType extends Model
 {
     use HasFactory;
 
@@ -14,8 +14,8 @@ class CommodityType extends Model
         'name'
     ];
 
-    public function commodities(): HasMany
+    public function interventions(): HasMany
     {
-        return $this->hasMany(Commodity::class);
+        return $this->hasMany(Intervention::class);
     }
 }

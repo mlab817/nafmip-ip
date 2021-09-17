@@ -17,7 +17,9 @@ class CreateInvestmentsTable extends Migration
             $table->id();
             $table->foreignId('commodity_id')->constrained()->cascadeOnDelete();
             $table->string('title');
+            $table->foreignId('intervention_id')->nullable()->constrained()->cascadeOnDelete();
             $table->text('description')->nullable();
+            $table->decimal('quantity', 15, 2)->default(0);
             $table->decimal('cost',15,4)->default(0);
             $table->point('location_map')->nullable();
             $table->year('year')->nullable();

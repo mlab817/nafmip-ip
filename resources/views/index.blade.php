@@ -14,10 +14,6 @@
             max-width:400px;
         }
 
-        #map {
-            height: 100vh;
-        }
-
         .leaflet-popup-content-wrapper {
             width: 100%;
         }
@@ -151,69 +147,164 @@
         }
 
         #map {
-            height: 100vh;
+            max-height: 40vh;
         }
     </style>
 </head>
 <body>
+
 <div id="map"></div>
-<div class="form p-5">
-    <dl>
-        <dt class="input-label">
-            <label for="title">Title</label>
-        </dt>
-        <dd>
-            <input type="text" name="title" class="form-control input-block">
-        </dd>
-    </dl>
 
-    <dl>
-        <dt class="input-label">
-            <label for="description">Description</label>
-        </dt>
-        <dd>
-            <textarea name="description" id="description" class="form-control input-block"></textarea>
-        </dd>
-    </dl>
+<div class="d-flex flex-wrap">
 
-    <dl>
-        <dt class="input-label">
-            <label for="cost">Cost in PhP</label>
-        </dt>
-        <dd>
-            <input type="number" name="cost" id="cost" class="form-control input-block">
-        </dd>
-    </dl>
+    <div class="col-6 flex-column p-2">
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="commodity_id">Commodity</label>
+            </dt>
+            <dd>
+                <select name="commodity_id" id="commodity_id" class="form-select input-block"></select>
+            </dd>
+        </dl>
+
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="title">Title</label>
+            </dt>
+            <dd>
+                <input type="text" name="title" id="title" class="form-control input-block">
+            </dd>
+        </dl>
+
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="description">Description</label>
+            </dt>
+            <dd>
+                <textarea name="description" id="description" class="form-control input-block" rows="4"></textarea>
+            </dd>
+        </dl>
+
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="intervention_id">Intervention</label>
+            </dt>
+            <dd>
+                <select name="intervention_id" id="intervention_id" class="form-select input-block"></select>
+            </dd>
+        </dl>
+
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="quantity">Quantity</label>
+            </dt>
+            <dd>
+                <input type="number" name="quantity" id="quantity" class="form-control input-block">
+            </dd>
+        </dl>
+
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="cost">Cost in PhP</label>
+            </dt>
+            <dd>
+                <input type="number" name="cost" id="cost" class="form-control input-block">
+            </dd>
+        </dl>
+    </div>
+
+    <div class="col-6 flex-column p-2">
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="proponent">Proponent</label>
+            </dt>
+            <dd>
+                <input type="text" name="proponent" id="proponent" class="form-control input-block">
+            </dd>
+        </dl>
+
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="beneficiaries">Beneficiaries</label>
+            </dt>
+            <dd>
+                <input type="text" name="beneficiaries" id="beneficiaries" class="form-control input-block">
+            </dd>
+        </dl>
+
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="location_map">Location Map <small> (select from the map)</small></label>
+            </dt>
+            <dd>
+                <input type="text" name="location_map" id="location_map" class="form-control input-block" readonly>
+            </dd>
+        </dl>
+
+        <dl class="form-group">
+            <dt class="input-label">
+                <label for="justification">Justification</label>
+            </dt>
+            <dd>
+                <textarea name="justification" id="justification" class="form-control input-block" rows="4"></textarea>
+            </dd>
+        </dl>
+
+        <button class="btn btn-primary">Submit</button>
+    </div>
 
 </div>
 
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-search/3.0.2/leaflet-search.min.js" integrity="sha512-lmt2nQGwuhA/7xEG4KjOuzy+kBQVOgpBNFxJR2yWp8J57H8nYxWC8J7Y5woDbqBBpBVHHLbFEi503u5K49KcOA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    var map = new L.Map('map', {zoom: 6, center: new L.latLng([12.505,121.002411]) });
-    map.addLayer(new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'));	//base layer
+    function getCurrentLocation(callback) {
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                callback(new L.LatLng(position.coords.latitude,
+                    position.coords.longitude));
+            });
+        }
+        else {
+            throw new Error("Your browser does not support geolocation.");
+        }
+    }
 
-    map.addControl( new L.Control.Search({
-        url: 'https://nominatim.openstreetmap.org/search?format=json&q={s}&countrycodes=PH',
-        jsonpParam: 'json_callback',
-        propertyName: 'display_name',
-        propertyLoc: ['lat','lon'],
-        marker: L.circleMarker([0,0],{radius:30}),
-        autoCollapse: false,
-        autoType: false,
-        minLength: 2
-    }) );
+    document.addEventListener("DOMContentLoaded", function() {
+        getCurrentLocation(function (location) {
+            if (!location) {
+                location = new L.latLng([12.505, 121.002411]);
+            }
+            const map = new L.Map('map', { zoom: 12, center: location });
 
-    map.doubleClickZoom.disable()
+            map.addLayer(new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'));	//base layer
 
-    const layerGroup = L.layerGroup().addTo(map);
+            map.addControl( new L.Control.Search({
+                url: 'https://nominatim.openstreetmap.org/search?format=json&q={s}&countrycodes=PH',
+                jsonpParam: 'json_callback',
+                propertyName: 'display_name',
+                propertyLoc: ['lat','lon'],
+                marker: L.circleMarker([0,0],{radius:30}),
+                autoCollapse: false,
+                autoType: false,
+                minLength: 2
+            }) );
 
-    map.on('dblclick', function(e) {
-        layerGroup.clearLayers()
-        marker = L.marker(e.latlng)
-        marker.addTo(layerGroup)
-        document.getElementById('title').value = JSON.stringify(e.latlng)
-    })
+            map.doubleClickZoom.disable()
+
+            const layerGroup = L.layerGroup().addTo(map);
+
+            map.on('dblclick', function(e) {
+                layerGroup.clearLayers()
+                marker = L.marker(e.latlng)
+                marker.addTo(layerGroup)
+                document.getElementById('location_map').value = JSON.stringify(e.latlng)
+            })
+
+            L.popup()
+                .setLatLng(location)
+                .setContent('current location')
+                .openOn(map);
+        });
+    });
 </script>
 </body>
 </html>

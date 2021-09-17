@@ -1,0 +1,1456 @@
+{
+   "Crops": [
+      {
+         "Crop": "Palay"
+      },
+      {
+         "Crop": "Yellow Corn"
+      },
+      {
+         "Crop": "White Corn"
+      },
+      {
+         "Crop": "Abaca (dried raw fiber)"
+      },
+      {
+         "Crop": "Coconut (w/ husk)"
+      },
+      {
+         "Crop": "Coconut Mature"
+      },
+      {
+         "Crop": "Coconut Young"
+      },
+      {
+         "Crop": "Coffee (dried berries w/ pulp)"
+      },
+      {
+         "Crop": "Coffee Arabica (dried berries)"
+      },
+      {
+         "Crop": "Coffee Excelsa (dried berries)"
+      },
+      {
+         "Crop": "Coffee Liberica (dried berries)"
+      },
+      {
+         "Crop": "Coffee Robusta (dried berries)"
+      },
+      {
+         "Crop": "Coffee Others (dried berries)"
+      },
+      {
+         "Crop": "Rubber (coagulated cup lump)"
+      },
+      {
+         "Crop": "Sugarcane"
+      },
+      {
+         "Crop": "Sugarcane for Centrifugal Sugar"
+      },
+      {
+         "Crop": "Sugarcane for Ethanol"
+      },
+      {
+         "Crop": "Sugarcane for Panocha/Muscovado"
+      },
+      {
+         "Crop": "Sugarcane for Chewing"
+      },
+      {
+         "Crop": "Sugarcane for Basi/Vinegar"
+      },
+      {
+         "Crop": "Tobacco (dried leaves)"
+      },
+      {
+         "Crop": "Tobacco Native"
+      },
+      {
+         "Crop": "Tobacco Virginia"
+      },
+      {
+         "Crop": "Tobacco Others"
+      },
+      {
+         "Crop": "Cacao (dried beans w/ pulp)"
+      },
+      {
+         "Crop": "Cashew (ripe fruit w/ nut)"
+      },
+      {
+         "Crop": "Cotton (seed cotton)"
+      },
+      {
+         "Crop": "Oil Palm (fresh fruit bunch)"
+      },
+      {
+         "Crop": "Kaong (kernel)"
+      },
+      {
+         "Crop": "Bromeliad (live plant w/ pot)"
+      },
+      {
+         "Crop": "Euphorbia (live plant w/ pot)"
+      },
+      {
+         "Crop": "Green Corn Stalk"
+      },
+      {
+         "Crop": "Rice Hay (dried hays)"
+      },
+      {
+         "Crop": "Coconut Sap/Tuba"
+      },
+      {
+         "Crop": "Pili Nut (dried nut w/ shell)"
+      },
+      {
+         "Crop": "Coir (dried raw fiber)"
+      },
+      {
+         "Crop": "Jute (dried raw fiber)"
+      },
+      {
+         "Crop": "Kapok (seed kapok)"
+      },
+      {
+         "Crop": "Maguey (dried raw fiber)"
+      },
+      {
+         "Crop": "Ramie (dried raw fiber)"
+      },
+      {
+         "Crop": "Salago (dried raw fiber)"
+      },
+      {
+         "Crop": "Chrysanthemum"
+      },
+      {
+         "Crop": "Gladiola"
+      },
+      {
+         "Crop": "Orchids"
+      },
+      {
+         "Crop": "Dendrobium"
+      },
+      {
+         "Crop": "Vanda"
+      },
+      {
+         "Crop": "Roses"
+      },
+      {
+         "Crop": "Coconut Leaves (dried)"
+      },
+      {
+         "Crop": "Cogon (dried leaves)"
+      },
+      {
+         "Crop": "Romblon (dried leaves)"
+      },
+      {
+         "Crop": "Tiger Grass (dried flower w/ stalk)"
+      },
+      {
+         "Crop": "Banana Leaves"
+      },
+      {
+         "Crop": "Laza/Tambo (dried flower w/ stalk)"
+      },
+      {
+         "Crop": "Nipa Sap/Wine"
+      },
+      {
+         "Crop": "Anthurium"
+      },
+      {
+         "Crop": "Aster"
+      },
+      {
+         "Crop": "Azucena"
+      },
+      {
+         "Crop": "Baby's Breath"
+      },
+      {
+         "Crop": "Carnation"
+      },
+      {
+         "Crop": "Daisy"
+      },
+      {
+         "Crop": "Gerbera"
+      },
+      {
+         "Crop": "Heliconia"
+      },
+      {
+         "Crop": "Ilang-Ilang"
+      },
+      {
+         "Crop": "Sampaguita"
+      },
+      {
+         "Crop": "Spraymum"
+      },
+      {
+         "Crop": "Statice"
+      },
+      {
+         "Crop": "Guinea Grass"
+      },
+      {
+         "Crop": "Napier Grass"
+      },
+      {
+         "Crop": "Castor Beans"
+      },
+      {
+         "Crop": "Sesame"
+      },
+      {
+         "Crop": "Sorghum"
+      },
+      {
+         "Crop": "Pineapple Fiber"
+      },
+      {
+         "Crop": "African Palm Leaves"
+      },
+      {
+         "Crop": "Apatot"
+      },
+      {
+         "Crop": "Banaba"
+      },
+      {
+         "Crop": "Betel Nut"
+      },
+      {
+         "Crop": "Ikmo/Buyo"
+      },
+      {
+         "Crop": "Dahlia"
+      },
+      {
+         "Crop": "Dawa"
+      },
+      {
+         "Crop": "Flemingia"
+      },
+      {
+         "Crop": "Ginseng"
+      },
+      {
+         "Crop": "Ipil-Ipil Leaves"
+      },
+      {
+         "Crop": "Lagundi"
+      },
+      {
+         "Crop": "Ngalug"
+      },
+      {
+         "Crop": "Oregano"
+      },
+      {
+         "Crop": "Palm Ornamentals"
+      },
+      {
+         "Crop": "Puto-Puto"
+      },
+      {
+         "Crop": "Rensoni"
+      },
+      {
+         "Crop": "San Francisco"
+      },
+      {
+         "Crop": "Santan"
+      },
+      {
+         "Crop": "Tikog"
+      },
+      {
+         "Crop": "Water Lily"
+      },
+      {
+         "Crop": "Yellow Bell"
+      },
+      {
+         "Crop": "Yerba Buena"
+      },
+      {
+         "Crop": "Calachuci"
+      },
+      {
+         "Crop": "Pandan (For Fiber)"
+      },
+      {
+         "Crop": "Nipa Leaves"
+      },
+      {
+         "Crop": "Lumbia Leaves"
+      },
+      {
+         "Crop": "Pahid"
+      },
+      {
+         "Crop": "Pansit-Pansitan (Sinaw-Sinaw)"
+      },
+      {
+         "Crop": "Gotocola (Takip-Kuhol)"
+      },
+      {
+         "Crop": "Jatropha (Tuba-tuba)"
+      },
+      {
+         "Crop": "Hanlilika"
+      },
+      {
+         "Crop": "Halib-on"
+      },
+      {
+         "Crop": "Mayana"
+      },
+      {
+         "Crop": "Abaca Leafsheath (Umbak)"
+      },
+      {
+         "Crop": "Dracaena"
+      },
+      {
+         "Crop": "Florida Beauty"
+      },
+      {
+         "Crop": "Song of Korea"
+      },
+      {
+         "Crop": "Carabao Grass"
+      },
+      {
+         "Crop": "Blue Grass"
+      },
+      {
+         "Crop": "Cactus"
+      },
+      {
+         "Crop": "Labig Leaves"
+      },
+      {
+         "Crop": "D.Sanderiana White (Whitecorn)"
+      },
+      {
+         "Crop": "D.Sanderiana Yellow"
+      },
+      {
+         "Crop": "D.Marginata Tricolor"
+      },
+      {
+         "Crop": "Leaf Fern"
+      },
+      {
+         "Crop": "Fishtail Palm"
+      },
+      {
+         "Crop": "Palong Manok"
+      },
+      {
+         "Crop": "Mini Pineapple"
+      },
+      {
+         "Crop": "Kaong Sap"
+      },
+      {
+         "Crop": "Bariw Fiber"
+      },
+      {
+         "Crop": "Banana"
+      },
+      {
+         "Crop": "Banana Bungulan"
+      },
+      {
+         "Crop": "Banana Cavendish"
+      },
+      {
+         "Crop": "Banana Lakatan"
+      },
+      {
+         "Crop": "Banana Latundan"
+      },
+      {
+         "Crop": "Banana Saba"
+      },
+      {
+         "Crop": "Banana Others"
+      },
+      {
+         "Crop": "Calamansi"
+      },
+      {
+         "Crop": "Durian"
+      },
+      {
+         "Crop": "Lanzones"
+      },
+      {
+         "Crop": "Mandarin"
+      },
+      {
+         "Crop": "Mango"
+      },
+      {
+         "Crop": "Mango Carabao"
+      },
+      {
+         "Crop": "Mango Piko"
+      },
+      {
+         "Crop": "Mango Others"
+      },
+      {
+         "Crop": "Mangosteen"
+      },
+      {
+         "Crop": "Orange"
+      },
+      {
+         "Crop": "Papaya"
+      },
+      {
+         "Crop": "Papaya Hawaiian"
+      },
+      {
+         "Crop": "Papaya Native"
+      },
+      {
+         "Crop": "Papaya Solo"
+      },
+      {
+         "Crop": "Pineapple"
+      },
+      {
+         "Crop": "Pomelo"
+      },
+      {
+         "Crop": "Rambutan"
+      },
+      {
+         "Crop": "Tamarind Fruit"
+      },
+      {
+         "Crop": "Watermelon"
+      },
+      {
+         "Crop": "Balimbing"
+      },
+      {
+         "Crop": "Avocado"
+      },
+      {
+         "Crop": "Guava"
+      },
+      {
+         "Crop": "Guava (Native)"
+      },
+      {
+         "Crop": "Guava (Guaple)"
+      },
+      {
+         "Crop": "Guyabano"
+      },
+      {
+         "Crop": "Jackfruit"
+      },
+      {
+         "Crop": "Melon"
+      },
+      {
+         "Crop": "Melon (Honey-dew)"
+      },
+      {
+         "Crop": "Melon (Muskmelon)"
+      },
+      {
+         "Crop": "Santol"
+      },
+      {
+         "Crop": "Starapple"
+      },
+      {
+         "Crop": "Atis"
+      },
+      {
+         "Crop": "Breadfruit"
+      },
+      {
+         "Crop": "Chico"
+      },
+      {
+         "Crop": "Duhat"
+      },
+      {
+         "Crop": "Lime"
+      },
+      {
+         "Crop": "Mabolo"
+      },
+      {
+         "Crop": "Marang"
+      },
+      {
+         "Crop": "Sineguelas"
+      },
+      {
+         "Crop": "Abiu"
+      },
+      {
+         "Crop": "Anonas"
+      },
+      {
+         "Crop": "Ariwat"
+      },
+      {
+         "Crop": "Batwan"
+      },
+      {
+         "Crop": "Bignay"
+      },
+      {
+         "Crop": "Calumpit"
+      },
+      {
+         "Crop": "Camatchili"
+      },
+      {
+         "Crop": "Canistel"
+      },
+      {
+         "Crop": "Dragon fruit"
+      },
+      {
+         "Crop": "Golden Melon"
+      },
+      {
+         "Crop": "Granada"
+      },
+      {
+         "Crop": "Grapes"
+      },
+      {
+         "Crop": "Grapes (Green)"
+      },
+      {
+         "Crop": "Grapes (Red)"
+      },
+      {
+         "Crop": "Hibi"
+      },
+      {
+         "Crop": "Karamay"
+      },
+      {
+         "Crop": "Lemon"
+      },
+      {
+         "Crop": "Lepote"
+      },
+      {
+         "Crop": "Longans"
+      },
+      {
+         "Crop": "Makopa"
+      },
+      {
+         "Crop": "Manzanita/Aratelis"
+      },
+      {
+         "Crop": "Pangi"
+      },
+      {
+         "Crop": "Passion Fruit"
+      },
+      {
+         "Crop": "Pears"
+      },
+      {
+         "Crop": "Persimmon"
+      },
+      {
+         "Crop": "Rattan Fruits"
+      },
+      {
+         "Crop": "Serial/Sarale"
+      },
+      {
+         "Crop": "Sirialis"
+      },
+      {
+         "Crop": "Strawberry"
+      },
+      {
+         "Crop": "Tambis"
+      },
+      {
+         "Crop": "Zapote"
+      },
+      {
+         "Crop": "Asparagus"
+      },
+      {
+         "Crop": "Ampalaya Fruit"
+      },
+      {
+         "Crop": "Broccoli"
+      },
+      {
+         "Crop": "Cabbage"
+      },
+      {
+         "Crop": "Sweet Potato/Camote"
+      },
+      {
+         "Crop": "Carrots"
+      },
+      {
+         "Crop": "Cassava"
+      },
+      {
+         "Crop": "Cassava for food"
+      },
+      {
+         "Crop": "Cassava for Industrial use"
+      },
+      {
+         "Crop": "Cauliflower"
+      },
+      {
+         "Crop": "Eggplant"
+      },
+      {
+         "Crop": "Taro/Gabi"
+      },
+      {
+         "Crop": "Garlic (bulb)"
+      },
+      {
+         "Crop": "Ginger"
+      },
+      {
+         "Crop": "Bottle Gourd/Upo"
+      },
+      {
+         "Crop": "Snap Beans/Habitchuelas"
+      },
+      {
+         "Crop": "Swamp Cabbage/Kangkong"
+      },
+      {
+         "Crop": "Lettuce"
+      },
+      {
+         "Crop": "Mungbean/Mongo"
+      },
+      {
+         "Crop": "Lady's Finger/Okra"
+      },
+      {
+         "Crop": "Onion (mature bulb)"
+      },
+      {
+         "Crop": "Onion, bermuda"
+      },
+      {
+         "Crop": "Onion, native"
+      },
+      {
+         "Crop": "Peanut"
+      },
+      {
+         "Crop": "Pechay"
+      },
+      {
+         "Crop": "Pechay, Chinese"
+      },
+      {
+         "Crop": "Pechay, Native"
+      },
+      {
+         "Crop": "Radish"
+      },
+      {
+         "Crop": "Squash Fruit"
+      },
+      {
+         "Crop": "Stringbeans"
+      },
+      {
+         "Crop": "Tomato"
+      },
+      {
+         "Crop": "Greater yam/Ubi"
+      },
+      {
+         "Crop": "Potato"
+      },
+      {
+         "Crop": "Banana Blossom"
+      },
+      {
+         "Crop": "Pepper"
+      },
+      {
+         "Crop": "Pepper, bell"
+      },
+      {
+         "Crop": "Pepper, finger"
+      },
+      {
+         "Crop": "Chayote fruit"
+      },
+      {
+         "Crop": "Camote tops"
+      },
+      {
+         "Crop": "Onion leeks"
+      },
+      {
+         "Crop": "Patola"
+      },
+      {
+         "Crop": "Turnips/Singkamas"
+      },
+      {
+         "Crop": "Black Pepper"
+      },
+      {
+         "Crop": "Cucumber"
+      },
+      {
+         "Crop": "Sweet Peas"
+      },
+      {
+         "Crop": "Alogbati"
+      },
+      {
+         "Crop": "Celery"
+      },
+      {
+         "Crop": "Gabi leaves w/ stem"
+      },
+      {
+         "Crop": "Bamboo shoots"
+      },
+      {
+         "Crop": "Malunggay leaves"
+      },
+      {
+         "Crop": "Jackfruit young"
+      },
+      {
+         "Crop": "Green papaya"
+      },
+      {
+         "Crop": "Malunggay Fruit"
+      },
+      {
+         "Crop": "Chili Pepper Fruit"
+      },
+      {
+         "Crop": "Arrowroot"
+      },
+      {
+         "Crop": "Pao Galiang"
+      },
+      {
+         "Crop": "Tugue"
+      },
+      {
+         "Crop": "Beets"
+      },
+      {
+         "Crop": "Ashuete"
+      },
+      {
+         "Crop": "Kamias"
+      },
+      {
+         "Crop": "Kinchay"
+      },
+      {
+         "Crop": "Pandan (fresh leaves)"
+      },
+      {
+         "Crop": "Parsley"
+      },
+      {
+         "Crop": "Tamarind flower"
+      },
+      {
+         "Crop": "Lemon grass/Tanglad"
+      },
+      {
+         "Crop": "Camansi"
+      },
+      {
+         "Crop": "Kondol"
+      },
+      {
+         "Crop": "Ampalaya leaves"
+      },
+      {
+         "Crop": "Chayote tops"
+      },
+      {
+         "Crop": "Pepper chili leaves"
+      },
+      {
+         "Crop": "Cowpea tops"
+      },
+      {
+         "Crop": "Mushroom"
+      },
+      {
+         "Crop": "Mustard"
+      },
+      {
+         "Crop": "Edible fern/Paco"
+      },
+      {
+         "Crop": "Saluyot"
+      },
+      {
+         "Crop": "Spinach"
+      },
+      {
+         "Crop": "Squash tops"
+      },
+      {
+         "Crop": "Black Beans"
+      },
+      {
+         "Crop": "Chick Pea/Garbansos"
+      },
+      {
+         "Crop": "Cowpea"
+      },
+      {
+         "Crop": "Cowpea (dry)"
+      },
+      {
+         "Crop": "Cowpea (green)"
+      },
+      {
+         "Crop": "Garden pea/Gisantes"
+      },
+      {
+         "Crop": "Pigeon pea/Kadios"
+      },
+      {
+         "Crop": "Kentucky beans"
+      },
+      {
+         "Crop": "Kidney beans"
+      },
+      {
+         "Crop": "Kidney beans (red)"
+      },
+      {
+         "Crop": "Kidney beans (white)"
+      },
+      {
+         "Crop": "Lima beans/Patani"
+      },
+      {
+         "Crop": "Red beans"
+      },
+      {
+         "Crop": "Soybeans"
+      },
+      {
+         "Crop": "Winged beans/Sigarilyas"
+      },
+      {
+         "Crop": "Wonder beans"
+      },
+      {
+         "Crop": "Yambeans"
+      },
+      {
+         "Crop": "Bawing Sulasi"
+      },
+      {
+         "Crop": "Turmeric/luyang dilaw"
+      },
+      {
+         "Crop": "Kulibangbang"
+      },
+      {
+         "Crop": "Laurel"
+      },
+      {
+         "Crop": "Sugodsugod"
+      },
+      {
+         "Crop": "Alucon(bungon)"
+      },
+      {
+         "Crop": "Bago leaves"
+      },
+      {
+         "Crop": "Cassava tops"
+      },
+      {
+         "Crop": "Katuray"
+      },
+      {
+         "Crop": "Lumbia"
+      },
+      {
+         "Crop": "Lupo"
+      },
+      {
+         "Crop": "Papait"
+      },
+      {
+         "Crop": "Sangig"
+      },
+      {
+         "Crop": "Talinum"
+      },
+      {
+         "Crop": "Watercress"
+      },
+      {
+         "Crop": "Coconut pith"
+      },
+      {
+         "Crop": "Likway"
+      },
+      {
+         "Crop": "Sabidokong"
+      },
+      {
+         "Crop": "Samsamping"
+      },
+      {
+         "Crop": "Zucchini"
+      },
+      {
+         "Crop": "Bagbagkong flower"
+      },
+      {
+         "Crop": "Bagbagkong fruit"
+      },
+      {
+         "Crop": "Ballaiba"
+      },
+      {
+         "Crop": "Gabi runner"
+      },
+      {
+         "Crop": "Radish pods"
+      },
+      {
+         "Crop": "Camangeg"
+      },
+      {
+         "Crop": "Garlic leeks"
+      },
+      {
+         "Crop": "Yacon"
+      },
+      {
+         "Crop": "Banana pith"
+      },
+      {
+         "Crop": "Apat-apat"
+      },
+      {
+         "Crop": "Alubihod"
+      },
+      {
+         "Crop": "Tawri"
+      },
+      {
+         "Crop": "Kulitis"
+      },
+      {
+         "Crop": "Young corn"
+      },
+      {
+         "Crop": "Spring Onion"
+      },
+      {
+         "Crop": "Sayung-sayong"
+      },
+      {
+         "Crop": "Coriander"
+      },
+      {
+         "Crop": "Chives"
+      },
+      {
+         "Crop": "Basil"
+      },
+      {
+         "Crop": "Chaysim"
+      },
+      {
+         "Crop": "Mint"
+      },
+      {
+         "Crop": "Agitway"
+      },
+      {
+         "Crop": "Tabon-tabon"
+      },
+      {
+         "Crop": "Chinese malunggay"
+      },
+      {
+         "Crop": "Rossel/Labog"
+      },
+      {
+         "Crop": "Rattan pith"
+      }
+   ],
+   "Livestock": [
+      {
+         "Crop": "Carabao"
+      },
+      {
+         "Crop": "Cattle"
+      },
+      {
+         "Crop": "Hog"
+      },
+      {
+         "Crop": "Goat"
+      }
+   ],
+   "Poultry": [
+      {
+         "Crop": "Chicken"
+      },
+      {
+         "Crop": "Duck"
+      },
+      {
+         "Crop": "Chicken Egg"
+      },
+      {
+         "Crop": "Duck Egg"
+      }
+   ],
+   "Commercial/Marine Municipal Fisheries": [
+      {
+         "Crop": "Acetes (Alamang)"
+      },
+      {
+         "Crop": "Anchovies (Dilis)"
+      },
+      {
+         "Crop": "Big-eyed scad (Matangbaka)"
+      },
+      {
+         "Crop": "Bigeye tuna (Tambakol/ Bariles)"
+      },
+      {
+         "Crop": "Blue crab (Alimasag)"
+      },
+      {
+         "Crop": "Caesio (Dalagang-bukid)"
+      },
+      {
+         "Crop": "Cavalla (Talakitok)"
+      },
+      {
+         "Crop": "Crevalle (Salay-salay)"
+      },
+      {
+         "Crop": "Eastern little tuna (Bonito)"
+      },
+      {
+         "Crop": "Fimbriated sardines (Tunsoy)"
+      },
+      {
+         "Crop": "Flying fish (Bolador)"
+      },
+      {
+         "Crop": "Frigate tuna (Tulingan)"
+      },
+      {
+         "Crop": "Goatfish (Saramulyete)"
+      },
+      {
+         "Crop": "Grouper (Lapu-lapu)"
+      },
+      {
+         "Crop": "Hairtail (Espada)"
+      },
+      {
+         "Crop": "Indian mackerel (Alumahan)"
+      },
+      {
+         "Crop": "Bali sardinella (Tamban)"
+      },
+      {
+         "Crop": "Indo-pacific mackerel (Hasa-hasa)"
+      },
+      {
+         "Crop": "Mullet (Kapak)"
+      },
+      {
+         "Crop": "Parrot fish (Loro)"
+      },
+      {
+         "Crop": "Porgies (Pargo)"
+      },
+      {
+         "Crop": "Round herring (Tulis)"
+      },
+      {
+         "Crop": "Roundscad (Galunggong)"
+      },
+      {
+         "Crop": "Siganid (Samaral)"
+      },
+      {
+         "Crop": "Skipjack (Gulyasan)"
+      },
+      {
+         "Crop": "Slipmouth (Sapsap)"
+      },
+      {
+         "Crop": "Snapper (Maya-maya)"
+      },
+      {
+         "Crop": "Spanish mackerel (Tanigue)"
+      },
+      {
+         "Crop": "Squid (Pusit)"
+      },
+      {
+         "Crop": "Threadfin bream (Bisugo)"
+      },
+      {
+         "Crop": "Yellowfin tuna (Tambakol/Bariles)"
+      }
+   ],
+   "Inland Municipal Fisheries": [
+      {
+         "Crop": "Carp"
+      },
+      {
+         "Crop": "Catfish (Hito)"
+      },
+      {
+         "Crop": "Catfish (Kanduli)"
+      },
+      {
+         "Crop": "Climbing perch (Martiniko)"
+      },
+      {
+         "Crop": "Eel (Igat)"
+      },
+      {
+         "Crop": "Freshwater goby (Biya)"
+      },
+      {
+         "Crop": "Gourami"
+      },
+      {
+         "Crop": "Milkfish (Bangus)"
+      },
+      {
+         "Crop": "Mudfish (Dalag)"
+      },
+      {
+         "Crop": "Mullet (Kapak)"
+      },
+      {
+         "Crop": "Mullet (Ludong)"
+      },
+      {
+         "Crop": "Sardines (Tawilis)"
+      },
+      {
+         "Crop": "Silver perch (Ayungin)"
+      },
+      {
+         "Crop": "Spade fish (Kitang)"
+      },
+      {
+         "Crop": "Starry goby (Dulong)"
+      },
+      {
+         "Crop": "Tarpon (Buan Buan)"
+      },
+      {
+         "Crop": "Tilapia"
+      },
+      {
+         "Crop": "Big head carp"
+      },
+      {
+         "Crop": "Blue crab (Alimasag)"
+      },
+      {
+         "Crop": "Endeavor prawn (Suahe)"
+      },
+      {
+         "Crop": "Freshwater crab (Talangka)"
+      },
+      {
+         "Crop": "Freshwater shrimp (Hipon)"
+      },
+      {
+         "Crop": "Lobster (Ulang)"
+      },
+      {
+         "Crop": "Mud crab (Alimango)"
+      },
+      {
+         "Crop": "Tiger prawn (Sugpo)"
+      },
+      {
+         "Crop": "White shrimp (Hipong Puti)"
+      },
+      {
+         "Crop": "Clams (Kabibi)"
+      },
+      {
+         "Crop": "Freshwater clams (Tulya)"
+      },
+      {
+         "Crop": "Oyster (Talaba)"
+      },
+      {
+         "Crop": "Shell (Kuhol)"
+      },
+      {
+         "Crop": "Snail (Suso)"
+      }
+   ],
+   "Aquaculture - BRACKISHWATER FISHPOND": [
+      {
+         "Crop": "BF - Milkfish"
+      },
+      {
+         "Crop": "BF - Tilapia"
+      },
+      {
+         "Crop": "BF - Tiger prawn"
+      },
+      {
+         "Crop": "BF - Mudcrab"
+      },
+      {
+         "Crop": "BF - Endeavor prawn"
+      },
+      {
+         "Crop": "BF - White shrimp"
+      },
+      {
+         "Crop": "BF - Grouper"
+      },
+      {
+         "Crop": "BF - Siganid"
+      },
+      {
+         "Crop": "BF - Others"
+      }
+   ],
+   "Aquaculture - BRACKISHWATER PEN": [
+      {
+         "Crop": "BP - Milkfish"
+      },
+      {
+         "Crop": "BP - Tilapia"
+      },
+      {
+         "Crop": "BP - Grouper"
+      },
+      {
+         "Crop": "BP - Siganid"
+      }
+   ],
+   "Aquaculture - BRACKISHWATER CAGE": [
+      {
+         "Crop": "BC - Milkfish"
+      },
+      {
+         "Crop": "BC - Tilapia"
+      },
+      {
+         "Crop": "BC - Grouper"
+      },
+      {
+         "Crop": "BC - Siganid"
+      }
+   ],
+   "Aquaculture - FRESHWATER FISHPOND": [
+      {
+         "Crop": "FF - Milkfish"
+      },
+      {
+         "Crop": "FF - Tilapia"
+      },
+      {
+         "Crop": "FF - Carp"
+      },
+      {
+         "Crop": "FF - Catfish"
+      },
+      {
+         "Crop": "FF - Gourami"
+      },
+      {
+         "Crop": "FF - Mudfish"
+      },
+      {
+         "Crop": "FF - Freshwater prawn"
+      }
+   ],
+   "Aquaculture - FRESHWATER PEN": [
+      {
+         "Crop": "FP - Milkfish"
+      },
+      {
+         "Crop": "FP - Tilapia"
+      },
+      {
+         "Crop": "FP - Carp"
+      },
+      {
+         "Crop": "FP - Catfish"
+      }
+   ],
+   "Aquaculture - FRESHWATER CAGE": [
+      {
+         "Crop": "FC - Milkfish"
+      },
+      {
+         "Crop": "FC - Tilapia"
+      },
+      {
+         "Crop": "FC - Carp"
+      },
+      {
+         "Crop": "FC - Catfish"
+      }
+   ],
+   "Aquaculture - MARINE PEN": [
+      {
+         "Crop": "MP - Milkfish"
+      },
+      {
+         "Crop": "MP - Tilapia"
+      },
+      {
+         "Crop": "MP - Tiger prawn"
+      },
+      {
+         "Crop": "MP - Mudcrab"
+      },
+      {
+         "Crop": "MP - Endeavor prawn"
+      },
+      {
+         "Crop": "MP - White shrimp"
+      },
+      {
+         "Crop": "MP - Grouper"
+      },
+      {
+         "Crop": "MP - Siganid"
+      },
+      {
+         "Crop": "MP - Spiny lobster"
+      }
+   ],
+   "Aquaculture - MARINE CAGE": [
+      {
+         "Crop": "MC - Milkfish"
+      },
+      {
+         "Crop": "MC - Tilapia"
+      },
+      {
+         "Crop": "MC - Tiger prawn"
+      },
+      {
+         "Crop": "MC - Mudcrab"
+      },
+      {
+         "Crop": "MC - Endeavor prawn"
+      },
+      {
+         "Crop": "MC - White shrimp"
+      },
+      {
+         "Crop": "MC - Grouper"
+      },
+      {
+         "Crop": "MC - Siganid"
+      },
+      {
+         "Crop": "MC - Spiny lobster"
+      }
+   ],
+   "Aquaculture": [
+      {
+         "Crop": "OYSTER"
+      },
+      {
+         "Crop": "MUSSEL"
+      },
+      {
+         "Crop": "SEAWEED"
+      }
+   ],
+   "Aquaculture - RICE FISH": [
+      {
+         "Crop": "RF - Milkfish"
+      },
+      {
+         "Crop": "RF - Tilapia"
+      },
+      {
+         "Crop": "RF - Carp"
+      },
+      {
+         "Crop": "RF - Catfish"
+      },
+      {
+         "Crop": "RF - Gourami"
+      },
+      {
+         "Crop": "RF - Mudfish"
+      }
+   ],
+   "Aquaculture - SMALL FARM RESERVOIR": [
+      {
+         "Crop": "SFR - Milkfish"
+      },
+      {
+         "Crop": "SFR - Tilapia"
+      },
+      {
+         "Crop": "SFR - Carp"
+      },
+      {
+         "Crop": "SFR - Catfish"
+      },
+      {
+         "Crop": "SFR - Gourami"
+      },
+      {
+         "Crop": "SFR - Mudfish"
+      }
+   ]
+}
